@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>天使投资</title>
+  <meta charset="utf-8">
+  <script src="./app.js"></script>
+</head>
+<body style="background-image:url(/cover.jpg)">
+  <h1>区块链上的天使投资</h1>
+
+  <h3 id="info">当前您拥有 <span class="black"><span id="balance"></span> 资金</span></h3>
+
+  <div id="myExpect">
+      <br><label for="expect">目标资金：</label>
+      <input type="text" id="expect" placeholder="请输入目标资金数目"></input>
+  </div>  
+
+  <div id="myAmount">
+      <br><label for="amount">回报资金：</label>
+      <input type="text" id="amount" placeholder="请输入返还给投资者的资金数目"></input>
+  </div>  
+
+  <div id="myReceiver">
+      <br><label for="receiver">转账地址：</label>
+      <input type="text" id="receiver" placeholder="请输入投资人的账户地址"></input>
+  </div>
+  
+  <div id="myWayOfMoney">
+      <br><label for="wayOfMoney">资金去向：</label>
+      <textarea type="text" id="wayOfMoney" placeholder="请输入当前已使用资金去向和未来项目计划" style="vertical-align:top"></textarea>
+  </div>
+  
+
+  <br><button id="send" onclick="App.sendCoin()" >提交</button><br><br>
+
+  <span id="status"></span>
+</body>
+</html>

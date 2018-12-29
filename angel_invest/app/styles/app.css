@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+label {
+  width: 100px;
+}
+
+input,textarea {
+  width: 500px;
+  padding: 5px;
+  font-size: 16px;
+
+  border: 1px solid #ccc; 
+  border-radius: 3px;
+}
+
+textarea{
+  height: 100px;
+}
+
+button {
+  font-size: 15px;
+  width: 80px;
+  padding: 10px;
+
+  border: 1px solid #ccc; 
+  border-radius: 3px;
+  
+  color: black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: gray;   
+  color: black;
+}
+
+h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 24px;
+
+}
+
